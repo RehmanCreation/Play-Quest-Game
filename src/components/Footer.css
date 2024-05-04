@@ -3,7 +3,7 @@
     padding: 10px 0;
     background: rgb(9,7,56) !important;
     background: linear-gradient(106deg, rgba(9,7,56,1) 0%, rgba(0,0,0,1) 35%) !important;
-    
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .contact-content p {
