@@ -1,0 +1,113 @@
+.Upcoming-Match{
+    background: rgb(9,7,56);
+background: linear-gradient(106deg, rgba(9,7,56,1) 0%, rgba(0,0,0,1) 35%);
+border: none !important;
+padding-top: 60px; 
+padding-bottom: 30px;
+font-family: 'Courier New', Courier, monospace;
+}
+.main-heading h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+
+  }
+  
+  .main-heading p {
+    font-size: 18px;
+    color: white;
+  }
+  
+  .center-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  .custom-box {
+    border: 1px solid black;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    background-color: #090738;
+    background-image: url('./image/gaming-bg1.webp');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+  }
+  
+.custom-box h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+.custom-box h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  font-weight: 700;
+}
+
+.custom-box h3:hover{
+    color: #b154F0;
+}
+.custom-box h4 {
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+}
+  
+  .circle-background {
+    background-color: #b154F0;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .content-match {
+    margin-top: 20px;
+  }
+  
+  .image-column img {
+    margin-top: 20px;
+  }
+  
+
+  @media screen and (max-width: 1023px) {
+    .Upcoming-Match {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  
+    .main-heading h1 {
+      font-size: 30px;
+    }
+  
+    .main-heading p {
+      font-size: 14px;
+    }
+  
+    .custom-box h2 {
+      font-size: 16px;
+      margin-top: 20px;
+    }
+  
+    .custom-box h3 {
+      font-size: 24px;
+    }
+  
+    .custom-box h4 {
+      font-size: 14px;
+    }
+  
+    .circle-background {
+      width: 60px;
+      height: 60px;
+    }
+  }

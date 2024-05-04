@@ -1,0 +1,77 @@
+
+  .gaming-world-container {
+background-color: black;
+    text-align: center; 
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .gaming-world-container h1 {
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px !important;
+  }
+  .card {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none !important; 
+    background-image: url('./image/gaming-world-bg1.webp') !important; 
+    background-size: cover !important; 
+    height: 200px;
+    box-shadow: none !important;
+    background-color: black !important;
+    height: 460px !important;
+    margin-top: 40px;
+  }
+  
+  .card .card-img-top {
+    height: 180px; 
+    width: 170px; 
+    object-fit: cover; 
+    z-index: 100;
+  }
+  .gaming-world-container h1 {
+    color: white !important; 
+    font-size: 40px; 
+  }
+  
+  .gaming-world-container p {
+    color: white !important; 
+    font-size: 18px; 
+  }
+  .card-title{
+    color: white !important;
+    margin-top: 24px !important;
+    font-weight: bold !important;
+    font-size: 24px !important;
+  }
+  
+
+  
+/* Media query for screens less than 1023px wide */
+@media only screen and (max-width: 1023px) {
+  .card {
+    height: 460px !important;
+  }
+
+  .card .card-img-top {
+    height: 120px; 
+    width: 120px; 
+  }
+
+  .gaming-world-container h1 {
+    font-size: 30px !important; 
+  }
+
+  .gaming-world-container p {
+    font-size: 16px !important; 
+  }
+  .card-title{
+    margin-top: 30px !important;
+    font-weight: bold !important;
+    margin-top: 70px !important;
+  }
+}

@@ -1,0 +1,124 @@
+.contact-area {
+    border-bottom: 1px solid #353C46;
+    padding: 10px 0;
+    background: rgb(9,7,56) !important;
+    background: linear-gradient(106deg, rgba(9,7,56,1) 0%, rgba(0,0,0,1) 35%) !important;
+    
+}
+
+.contact-content p {
+    color: white;
+    font-size: 20px;
+    margin: 30px 0 60px;
+    position: relative;
+}
+
+.contact-content p::after {
+    bottom: -30px;
+    content: "";
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+.contact-content h6 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.contact-content span {
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.contact-social {
+    margin-top: 30px;
+}
+
+.contact-social > ul {
+    display: inline-flex;
+    list-style: none; 
+}
+
+.contact-social ul li a {
+    border: 1px solid #8b9199;
+    color: white;
+    display: inline-block;
+    height: 40px;
+    margin: 0 10px;
+    padding-top: 7px;
+    transition: all 0.4s ease;
+    width: 40px;
+}
+
+.contact-social ul li a:hover {
+    border: 1px solid #b154F0;
+    color: #b154F0;
+}
+
+.contact-content img {
+    max-width: 210px;
+    height: auto;
+}
+
+section.contact-area,
+footer {
+    color: white;
+    font-size: 18px;
+}
+
+footer p {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 44px;
+}
+
+@media screen and (max-width: 1023px) {
+    .contact-content p {
+        font-size: 16px; 
+        margin: 20px 0 40px; 
+    }
+
+    .contact-content h6 {
+        font-size: 16px;
+    }
+
+    .contact-content span {
+        font-size: 16px; 
+    }
+
+    .contact-social {
+        margin-top: 20px;
+    }
+
+    .contact-social ul li a {
+        height: 30px;
+        width: 30px;
+        padding-top: 5px; 
+    }
+
+    .contact-content img {
+        max-width: 150px; 
+    }
+
+    section.contact-area,
+    footer {
+        font-size: 16px; 
+    }
+
+    footer p {
+        padding: 20px 0; 
+    }
+
+    footer img {
+        width: 30px; 
+    }
+}

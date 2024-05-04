@@ -1,0 +1,44 @@
+.video-section-container {
+    background: rgb(9,7,56);
+    background: linear-gradient(106deg, rgba(9,7,56,1) 0%, rgba(0,0,0,1) 35%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(121, 87, 87, 0.7); /* Adding box shadow effect */
+}
+
+.video-container video {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid #ccc;
+}
+  @media screen and (max-width: 1023px) {
+    .video-container {
+        padding: 0 20px; /* Adjust padding as needed */
+    }
+
+    .video-container video {
+        width: 100%;
+        height: auto;
+    }
+     /* Ensure video autoplays on mobile */
+     .video-container video::-webkit-media-controls-start-playback-button {
+        display: none;
+        -webkit-appearance: none;
+    }
+
+    .video-container video {
+        display: none;
+    }
+
+    .video-container video {
+        display: block;
+    }
+}

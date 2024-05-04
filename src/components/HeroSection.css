@@ -1,0 +1,237 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+.main-container {
+    background-image: url('./image/hero banner 1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+.button-86 {
+    all: unset;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    position: relative;
+    color: #f0f0f0;
+    cursor: pointer;
+    z-index: 1;
+    padding: 10px 20px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-86::after,
+  .button-86::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -99999;
+    transition: all .4s;
+  }
+  
+  .button-86::before {
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( 179.7deg,  rgba(249,21,215,1) 1.1%, rgba(22,0,98,1) 99% );
+    border-radius: 10px;
+  }
+  
+  .button-86::after {
+    transform: translate(10px, 10px);
+    width: 35px;
+    height: 35px;
+    background: #ffffff15;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 50px;
+  }
+  
+  .button-86:hover::before {
+    transform: translate(5%, 20%);
+    width: 110%;
+    height: 110%;
+  }
+  
+  .button-86:hover::after {
+    border-radius: 10px;
+    transform: translate(0, 0);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .button-86:active::after {
+    transition: 0s;
+    transform: translate(0, 5%);
+  }
+  
+
+  
+  .logo img {
+    margin-right: auto;
+    width: 140px;
+  }
+  
+  .navbar {
+    padding: 0;
+    margin-top: -30px; 
+  }
+  
+  .navbar,
+  .banner {
+    background: transparent;
+  }
+  
+  .banner-content {
+    padding: 50px;
+    margin-top: 40px;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+  }
+  
+  .banner p {
+    font-size: 18px;
+  }
+  
+ 
+ /* Navbar menu CSS */
+.navbar-nav .nav-link {
+    color: white !important; 
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .navbar-nav .nav-link:hover{
+    color: #b154f0 !important; 
+    margin-right: 40px;
+    font-weight: 600;
+  }
+  .banner-content h1 {
+    font-size: 70px;
+    margin-bottom: 20px; 
+    line-height: 1;
+    font-family: Metal Mania, cursive;
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px 0 #b154f0;
+    
+  }
+  
+  .banner-content p {
+    font-size: 18px; 
+    margin-bottom: 20px; 
+    font-weight: 700;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .button-87 {
+    all: unset;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    position: relative;
+    color: #f0f0f0;
+    cursor: pointer;
+    z-index: 1;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-weight: bold;
+  }
+  
+  .button-87::after,
+  .button-87::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -99999;
+    transition: all .4s;
+  }
+  
+  .button-87::before {
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( 179.7deg,  rgba(249,21,215,1) 1.1%, rgba(22,0,98,1) 99% );
+    border-radius: 10px;
+  }
+  
+  .button-87::after {
+    transform: translate(10px, 10px);
+    width: 35px;
+    height: 35px;
+    background: #ffffff15;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 50px;
+  }
+  
+  .button-87:hover::before {
+    transform: translate(5%, 20%);
+    width: 110%;
+    height: 110%;
+  }
+  
+  .button-87:hover::after {
+    border-radius: 10px;
+    transform: translate(0, 0);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .button-87:active::after {
+    transition: 0s;
+    transform: translate(0, 5%);
+  }
+  
+  @media (max-width: 1023px) {
+    .main-container {
+        height: auto; 
+    }
+
+    .banner-content h1 {
+        font-size: 40px; 
+    }
+
+    .navbar-nav .nav-link {
+        color: white !important; 
+        text-align: center; 
+        margin-top: 10px; 
+        
+    }
+
+    .button-86 {
+        margin-top: 10px; 
+        margin-left: auto; 
+        margin-right: auto; 
+        display: none; 
+    }
+    .banner-content p{
+      font-size: 16px;
+    }
+
+   
+}
